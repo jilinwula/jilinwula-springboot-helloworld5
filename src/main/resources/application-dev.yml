@@ -1,6 +1,2 @@
-server:
-  port: 8081
-  context-path: /springboot
-email:
-  username: jilinwula
-  password: 123456
+
+
