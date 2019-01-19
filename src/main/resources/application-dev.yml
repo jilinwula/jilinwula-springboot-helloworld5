@@ -2,7 +2,7 @@ spring:
   profiles:
     active: dev
   datasource:
-    url: jdbc:mysql://localhost:3306/springboot?useSSL=false
+    url: jdbc:mysql://localhost:3306/springboot?useSSL=false&characterEncoding=utf8
     username: root
     password: jilinwula
     driver-class-name: com.mysql.jdbc.Driver
