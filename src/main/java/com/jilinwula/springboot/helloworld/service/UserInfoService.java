@@ -17,7 +17,7 @@ public class UserInfoService {
     /**
      * 保存用户信息
      */
-    @Transactional()
+    @Transactional(rollbackForClassName = "Exceptions")
     public void save() throws Exception {
         try {
             UserInfoEntity userInfoEntity = new UserInfoEntity();
@@ -38,6 +38,6 @@ public class UserInfoService {
         } catch (Exception e) {
             log.info("保存用户信息异常", e);
         }
-        throw new MyException();
+        throw new Exception();
     }
 }
