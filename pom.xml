@@ -12,7 +12,7 @@
     <artifactId>jilinwula-springboot-helloworld</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>jilinwula-springboot-helloworld</name>
-    <description>SpringBoot入门篇</description>
+    <description>SpringBoot事物管理</description>
 
     <properties>
         <java.version>1.8</java.version>
