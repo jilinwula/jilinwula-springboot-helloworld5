@@ -1,0 +1,4 @@
+GET http://127.0.0.1:8080/springboot/userinfo/query?roleId=3&username=阿里巴巴&id=1
+
+###
+
